@@ -1,0 +1,76 @@
+body {
+    overflow-x: hidden;
+}
+
+header {
+    height: calc(100vh + 2px);
+    display: grid;
+    grid-template-rows: 1fr 6fr 1fr;
+    .posizione {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid $nero;
+        p {
+            font-size: 22px;
+        }
+        img {
+            width: 20px;
+            height: auto;
+            margin-right: 16px;
+        }
+    }
+    .menu ul {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        li {
+            width: 100vw;
+            padding: 10px 0;
+            border-bottom: 2px solid $nero;
+            text-align: center;
+            font-size: 36px;
+            &:nth-child(1) {
+                border-top: 2px solid $nero;
+            }
+        }
+    }
+}
+
+main {
+    padding: 20px 36px;
+    section {
+        padding: 20px 0;
+        h2 {
+            padding-bottom: 20px;
+        }
+        .partners {
+            display: flex;
+            grid-template-columns:  repeat(3, 1fr);
+            border-top: 2px solid $nero;
+            border-bottom: 2px solid $nero;
+            .partner {
+                padding: 0 5px;
+                &:nth-child(2) {
+                    border-right: 2px solid $nero;
+                    border-left: 2px solid $nero;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    padding: 36px;
+    border-top: 2px solid $nero;
+    .footer-section {
+        padding-top: 30px;
+        h3 {
+            padding-bottom: 7px;
+        }
+        p, a{
+            font-size: 16px;
+            line-height: 23px;
+            display: block;
+        }
+    }
+}
