@@ -16,3 +16,14 @@
         }
     }
 }
+
+@media (min-width: 1050px) {
+    .button-container{
+        padding-top: 20px;
+        button {
+            padding: 8px 15px;
+            font-size: 22px;
+            border: 2px solid $nero;
+        }
+    }
+}

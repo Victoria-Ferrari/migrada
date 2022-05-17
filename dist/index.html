@@ -18,9 +18,9 @@
         </div>
         <div class="menu">
             <ul>
-                <li><a href="#">9 Giugno</a></li>
-                <li><a href="#">10 Giugno</a></li>
-                <li><a href="#">11 Giugno</a></li>
+                <li id="giugno-9"><a href="#content">9 Giugno</a></li>
+                <li id="giugno-10"><a href="#content">10 Giugno</a></li>
+                <li id="giugno-11"><a href="#content">11 Giugno</a></li>
             </ul>
         </div>
     </header>
@@ -32,43 +32,138 @@
         <section>
             <h2>Evento</h2>
             <p>Migrada. Dietro una parola si nasconde un mondo. È un festival di grafica d'arte, nato per sporcarsi le mani. Stampe analogiche, workshop, talk ed esposizioni, per dare voce alla creatività. Un’occasione per mettere sul tavolo un’ idea, alimentarla e farle prendere vita.</p>
+            <span id="content"></span>
         </section>
-        <section id="programma">
+        <section id="programmazione">
             <h2>Programma</h2>
+            <div class="programma">
             <div class="accordion">
-                <!-- faq 1 -->
-                <div class="accordion-header">
-                        <a href="#content-1" class="accordion-toggle"><p>Gio 9 Giugno</p><img src="img/x.svg" alt=""></a>
-                </div>
-                <div class="accordion-content-container" id="content-1">
-                    <div class="accordion-content">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum ullam quia tempore velit dolorem architecto officiis in maiores placeat? Est quibusdam corrupti magnam quasi, inventore asperiores nihil dicta ad hic?</p>
+                    <!-- faq 1 -->
+                    <div class="accordion-header">
+                            <a href="#content-1" class="accordion-toggle"><p>Gio 9 Giugno</p><img src="img/x.svg" alt=""></a>
+                    </div>
+                    <div class="accordion-content-container" id="content-1">
+                        <div class="accordion-content">
+                            <div class="fasce-orarie">
+                                <div class="orario"><span>10:00</span></div>
+                                <div class="descrizione">
+                                    <h3>Apertura</h3>
+                                    <p>Scuola Mohole - Via Privata Giovanni Ventura, 5</p>
+                                </div>
+                            </div>
+                            <div class="fasce-orarie">
+                                <div class="orario"><span>10:00</span><span>12:00</span></div>
+                                <div class="descrizione">
+                                    <h3>Presentazione Metaprogetto e Alfa</h3>
+                                    <p>Scuola Mohole - Via Privata Giovanni Ventura, 5</p>
+                                </div>
+                            </div>
+                            <div class="fasce-orarie">
+                                <div class="orario"><span>15:30</span><span>17:00</span></div>
+                                <h3>Talk - 279 Editions</h3>
+                                <p>Con Franco Cervi</p>
+                                <p>ACLI - Via Conte Rosso, 5</p>
+                            </div>
+                            <div class="fasce-orarie">
+                                <div class="orario"><span>15:30</span><span>18:00</span></div>
+                                <h3>Open Studio</h3>
+                                <p>LIEVITO Creative LAB</p>
+                                <P>Presentazione del laboratorio e dei loro progetti</P>
+                                <p>LIEVITO creative LAB - Via Conte Rosso, 26</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- faq 2 -->
+                    <div class="accordion-header">
+                        <a href="#content-2" class="accordion-toggle"><p>Ven 10 Giugno</p><img src="img/x.svg" alt=""></a>
+                    </div>
+                    <div class="accordion-content-container" id="content-2">
+                        <div class="accordion-content">
+                            <div class="fasce-orarie">
+                                <div class="orario"><span>10:00</span></div>
+                                <div class="descrizione">
+                                    <h3>Apertura</h3>
+                                    <p>Scuola Mohole - Via Privata Giovanni Ventura, 5</p>
+                                </div>
+                            </div>
+                            <div class="fasce-orarie">
+                                <div class="orario"><span>10:00</span><span>10:30</span></div>
+                                <div class="descrizione">
+                                    <h3>Presentazione Gamma</h3>
+                                    <p>Scuola Mohole - Via Privata Giovanni Ventura, 5</p>
+                                </div>
+                            </div>
+                            <div class="fasce-orarie">
+                                <div class="orario"><span>11:30</span><span>13:30</span></div>
+                                <div class="descrizione">
+                                    <h3>Talk - Libri d’artista</h3>
+                                    <p>Con Giacomo Callo</p>
+                                    <p>ACLI - Via Conte Rosso, 5</p>
+                                </div>
+                            </div>
+                            <div class="fasce-orarie">
+                                <div class="orario"><span>15:30</span><span>18:00</span></div>
+                                <div class="descrizione">
+                                    <h3>Workshop - Printi</h3>
+                                    <p>Con Camillo Frigeni</p>
+                                    <p>ACLI - Via Conte Rosso, 5</p>
+                                </div>
+                            </div>
+                            <div class="fasce-orarie">
+                                <div class="orario"><span>16:30</span><span>18:00</span></div>
+                                <div class="descrizione">
+                                    <h3>Tavoli Tematici - Stampa analogica</h3>
+                                    <p>Con Pilar Dominguez</p>
+                                    <p>ACLI - Via Conte Rosso, 5</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- faq 3 -->
+                    <div class="accordion-header">
+                        <a href="#content-3" class="accordion-toggle"><p>Sab 11 Giugno</p><img src="img/x.svg" alt=""></a>
+                    </div>
+                    <div class="accordion-content-container" id="content-3">
+                        <div class="accordion-content">
+                            <div class="fasce-orarie">
+                                <div class="orario"><span>10:00</span></div>
+                                <div class="descrizione">
+                                    <h3>Apertura</h3>
+                                    <p>Scuola Mohole - Via Privata Giovanni Ventura, 5</p>
+                                </div>
+                            </div>
+                            <div class="fasce-orarie">
+                                <div class="orario"><span>10:00</span><span>10:30</span></div>
+                                <div class="descrizione">
+                                    <h3>Presentazione Beta</h3>
+                                    <p>Scuola Mohole - Via Privata Giovanni Ventura, 5</p>
+                                </div>
+                            </div>
+                            <div class="fasce-orarie">
+                                <div class="orario"><span>10:30</span><span>13:30</span></div>
+                                <div class="descrizione">
+                                    <h3>Talk - Grafica d'arte</h3>
+                                    <p>Con Beppe Del Greco</p>
+                                    <p>ACLI - Via Conte Rosso, 5</p>
+                                </div>
+                            </div>
+                            <div class="fasce-orarie">
+                                <div class="orario"><span>16:30</span><span>18:30</span></div>
+                                <div class="descrizione">
+                                    <h3>Workshop - Serigrafia</h3>
+                                    <p>Con Riccardo Piperno e Federica Vuolo</p>
+                                    <p>ACLI - Via Conte Rosso, 5</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <!-- faq 2 -->
-                <div class="accordion-header">
-                    <a href="#content-2" class="accordion-toggle"><p>Gio 9 Giugno</p><img src="img/x.svg" alt=""></a>
+                <div class="button-container">
+                    <button>Scarica il programma</button>
                 </div>
-                <div class="accordion-content-container" id="content-2">
-                    <div class="accordion-content">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum ullam quia tempore velit dolorem architecto officiis in maiores placeat? Est quibusdam corrupti magnam quasi, inventore asperiores nihil dicta ad hic?</p>
-                    </div>
-                </div>
-                <!-- faq 3 -->
-                <div class="accordion-header">
-                    <a href="#content-3" class="accordion-toggle"><p>Gio 9 Giugno</p><img src="img/x.svg" alt=""></a>
-                </div>
-                <div class="accordion-content-container" id="content-3">
-                    <div class="accordion-content">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum ullam quia tempore velit dolorem architecto officiis in maiores placeat? Est quibusdam corrupti magnam quasi, inventore asperiores nihil dicta ad hic?</p>
-                    </div>
-                </div>
-            </div>
-            <div class="button-container">
-                <button>Scarica il programma</button>
             </div>
         </section>
-        <section>
+        <div>
             <p>Partners:</p>
             <div class="partners">
                 <div class="partner">
@@ -81,10 +176,11 @@
                     <img src="img/acli.png" alt="Acli logo image">
                 </div>  
             </div>
-        </section>
+        </div>
     </main>
     <footer>
-        <img src="img/migrada_esteso.svg" alt="Migrada logo image">
+        <img class="img-footer-mobile" src="img/migrada_esteso.svg" alt="Migrada logo image">
+        <img class="img-footer-desktop" src="img/logo.png" alt="Migrada logo image">
         <div class="footer-section">
             <h3>Migrada</h3>
             <p>9-10-11 Giugno, 2022</p>

@@ -10,12 +10,36 @@
 .accordion-content-container.active p{
     opacity: 0;
 }
-.accordion-content-container.active p{
-    opacity: 1;
-    animation-name: fadeInOpacity;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: 0.3s;
+.accordion-content-container.active {
+    .fasce-orarie, p{
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 0.3s;
+    }
+}
+.accordion-header.active{
+    border: none;
+}
+.accordion-content{
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 30px 15px;
+    .fasce-orarie{
+        padding: 10px 0;
+    }
+}
+#content-1{
+    background-color: $blu;
+}
+#content-2{
+    background-color: $verde;
+}
+
+#content-3{
+    background-color: $giallo;
 }
 /* con keyframes utilizzo l'animazione e indico le due sitazioni che voglio creare */
 @keyframes fadeInOpacity{
@@ -54,24 +78,23 @@
         }
     }
 }
-@media(min-width: 700px){
-    .accordion{
-        margin: 50px -32px 0 -32px;
-        .accordion-header, .accordion-content-container{
-            padding: 50px 32px;
-        }
-    }
-}
+// @media(min-width: 700px){
+//     .accordion{
+//         margin: 50px -32px 0 -32px;
+//         .accordion-header{
+//             padding: 50px 32px;
+//         }
+//     }
+// }
 @media(min-width:1050px){
-    .accordion{
-        margin: 100px -190px;
-        .accordion-header, .accordion-content-container{
-            padding: 70px 200px;
+        #programmazione{
+            display: grid;
+            grid-template-columns: 1fr 2fr;
         }
+    .accordion{
         .accordion-content{
-            text-align: left;
             .info-content{
-                padding: 0 0 0 50px;
+                padding-bottom: 50px;
             }
         }
     }

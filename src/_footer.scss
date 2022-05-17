@@ -1,0 +1,32 @@
+footer {
+    padding: 36px;
+    border-top: 2px solid $nero;
+    .footer-section {
+        padding-top: 30px;
+        h3 {
+            padding-bottom: 7px;
+        }
+        p, a {
+            font-size: 16px;
+            line-height: 23px;
+            display: block;
+        }
+    }
+    .img-footer-desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 1050px) {
+    footer {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        .img-footer-mobile {
+            display: none;
+        }
+        .img-footer-desktop {
+            display: block;
+        }
+    }
+}
