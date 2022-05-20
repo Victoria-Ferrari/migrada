@@ -16,11 +16,16 @@ h3{
     font-size: 18px;
     line-height: 21.6px;
     font-weight: bold;
+    padding: 10px 0;
 }
 
 p{
     font-size: 19px;
     line-height: 27.4px;
+}
+.accordion p{
+    font-size: 16px;
+    line-height: 19px;
 }
 
 @media (min-width: 1050px) {   
@@ -37,5 +42,9 @@ p{
     p{
         font-size: 28px;
         line-height: 45px;
+    }
+    .accordion p{
+        font-size: 18px;
+        line-height: 22px;
     }
 }
