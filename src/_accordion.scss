@@ -1,8 +1,11 @@
 /*---------------------- ACCORDION HEADER ----------------------*/
 .accordion-header{
+    p{
+        font-size: 24px;
+    }
     a{
         border: 2px solid $nero;
-        padding: 18px;
+        padding: 18px 25px;
         font-size: 24px;
         display: flex;
         align-items: center;
@@ -46,10 +49,16 @@
         border-bottom: 2px solid black;
         border-left: 2px solid black;
         border-right: 2px solid black;
-        padding: 0 15px 30px 15px;
+        padding: 0 25px 30px 25px;
         opacity: 0;
         .fasce-orarie{
             padding: 10px 0;
+            h3{
+                padding-top: 4px;
+            }
+            .luogo{
+                font-size: 14px;
+            }
         }
     }
     &#content-1{
@@ -86,5 +95,40 @@
     }
     .accordion-content-container .accordion-content{
         padding: 0 50px 50px 50px;
+    }
+}
+
+@media(min-width: 1050px){
+    .accordion-header {
+        p {
+            font-size: 35px;
+        }
+        #x-icon{
+            width: 35px;
+            height: auto;
+        }
+    }
+    .accordion-content-container .accordion-content {
+        .fasce-orarie {
+            display: grid;
+            grid-template-columns: 1fr 2.5fr 1fr;
+            .orario span {
+                display: block;
+                font-size: 20px;
+            }
+            h3 {
+                padding-top: 0;
+                line-height: 24px;
+            }
+            .luogo{
+                font-size: 18px;
+            }
+            p{
+                font-size: 20px;
+            }
+            svg{
+                justify-self: end;
+            }
+        }
     }
 }

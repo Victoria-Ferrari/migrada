@@ -50,7 +50,7 @@
 
                     <!-- faq 1 -->
                     <div class="accordion-header">
-                            <a href="#content-1" class="accordion-toggle"><p>Gio 9 Giugno</p><img src="img/x.svg" alt=""></a>
+                            <a href="#content-1" class="accordion-toggle"><p>Gio 9 Giugno</p><img id="x-icon" src="img/x.svg" alt=""></a>
                     </div>
                     <div class="accordion-content-container" id="content-1">
                         <div class="accordion-content">
@@ -58,35 +58,51 @@
                                 <div class="orario"><span>10:00</span></div>
                                 <div class="descrizione">
                                     <h3>Apertura</h3>
-                                    <p>Scuola Mohole - Via Privata Giovanni Ventura, 5</p>
+                                    <p class="luogo">Scuola Mohole - Via Privata Giovanni Ventura, 5</p>
                                 </div>
+                                <div></div>
                             </div>
-                            <div class="fasce-orarie">
+                            <div class="fasce-orarie grid-3-col">
                                 <div class="orario"><span>10:00 </span><span>12:00</span></div>
                                 <div class="descrizione">
                                     <h3>Presentazione Metaprogetto e Alfa</h3>
-                                    <p>Scuola Mohole - Via Privata Giovanni Ventura, 5</p>
+                                    <p class="luogo">Scuola Mohole - Via Privata Giovanni Ventura, 5</p>
                                 </div>
+                                <!-- fu img -->
+                                <svg width="95" height="50" viewBox="0 0 95 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.43472 34.9997C9.53578 34.9997 11.2597 35.707 12.7153 37.1725C14.1709 38.6406 14.8694 40.3794 14.8694 42.4985C14.8694 44.6177 14.1682 46.3564 12.7153 47.8246C11.2623 49.2927 9.53578 49.9973 7.43472 49.9973C5.33366 49.9973 3.60979 49.29 2.15418 47.8246C0.698582 46.3564 0 44.6177 0 42.4985C0 40.3794 0.701239 38.6406 2.15418 37.1725C3.60713 35.7043 5.33366 34.9997 7.43472 34.9997ZM37.4472 0.543857V15.4343H0.108904V0.543857H37.4472ZM0.108904 17.8803H37.4472V32.7707H0.108904V17.8803Z" fill="#FFDE1A"/>
+                                    <path d="M57.4909 46.193C55.0127 43.6398 53.7723 40.3231 53.7723 36.2482V35.5409C53.7723 32.334 52.6407 29.6174 50.4307 27.3884C48.2208 25.1594 45.5274 24.0181 42.3479 24.0181V0.543857H48.5448C50.5928 0.543857 52.3167 1.25114 53.7723 2.71661C55.2279 4.18475 55.9264 5.92348 55.9264 7.98907L55.9796 36.2482C55.9796 39.6721 57.0022 42.4985 59.1059 44.6177C61.2096 46.7369 63.7941 47.8246 66.9736 47.8246C70.1531 47.8246 72.6844 46.7369 74.7855 44.6177C76.8866 42.4985 77.9119 39.6721 77.9119 36.2482V2.82645C77.9119 1.25114 79.0434 0 80.7142 0C82.276 0 83.4633 1.25114 83.4633 2.82645V14.4564C83.4633 17.6633 84.5418 20.4335 86.7491 22.6625C88.959 24.8915 91.5993 25.9765 94.7761 25.9765V49.4535H88.5792C86.5313 49.4535 84.8074 48.7462 83.3518 47.2807C81.8962 45.8126 81.1976 44.0738 81.2507 42.0083V2.77287C81.2507 2.39243 81.0887 2.17543 80.7115 2.17543C80.3343 2.17543 80.1192 2.39243 80.1192 2.77287V36.2509C80.1192 40.3258 78.8787 43.6425 76.3474 46.1957C73.8691 48.7489 70.7428 50 66.9709 50C63.1991 50 60.0197 48.7489 57.4883 46.1957L57.4909 46.193Z" fill="#FFDE1A"/>
+                                    </svg>
                             </div>
                             <div class="fasce-orarie">
                                 <div class="orario"><span>15:30 </span><span>17:00</span></div>
+                                <div class="descrizione">
                                 <h3>Talk - 279 Editions</h3>
-                                <p>Con Franco Cervi</p>
-                                <p>ACLI - Via Conte Rosso, 5</p>
+                                    <p class="luogo">ACLI - Via Conte Rosso, 5</p>
+                                    <p>Con Franco Cervi</p>
+                                </div>
+                                <!-- svg sp -->
+                                <svg width="94" height="50" viewBox="0 0 94 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.380452 28.0972H21.5759C21.8492 28.0972 21.9564 28.2071 21.9564 28.4777C22.01 31.2507 22.9879 33.587 24.8902 35.4892C26.7924 37.3379 29.185 38.2622 32.0652 38.2622C34.9453 38.2622 37.3379 37.3379 39.2402 35.4356C41.1424 33.5334 42.0668 31.3605 42.0668 28.8608C42.0668 26.8514 40.8718 25.6002 38.7525 25.6002H4.61901C1.79241 25.6002 0 23.9149 0 21.1446C0 15.1645 2.11928 10.1624 6.30426 6.08724C10.5428 2.01211 15.7057 0 21.7394 0C27.773 0 32.9359 2.06569 37.1209 6.14082C41.3059 10.2159 43.3716 15.3253 43.3716 21.5223C43.3716 21.7929 43.2617 21.9028 42.9911 21.9028H21.7929C21.5223 21.9028 21.4125 21.7929 21.4125 21.5223C21.4125 18.7493 20.4346 16.4666 18.5323 14.567C16.6301 12.6675 14.2375 11.7404 11.3037 11.7404C8.36995 11.7404 6.03097 12.6648 4.12871 14.567C2.22645 16.4693 1.30211 18.6422 1.30211 21.1419C1.30211 23.154 2.49705 24.4025 4.61633 24.4025H38.7472C41.5738 24.4025 43.3662 26.0878 43.3662 28.8581C43.3662 34.8355 41.2469 39.8376 37.0084 43.9128C32.8234 47.9879 27.6605 50 21.6268 50C15.5932 50 10.4866 47.9879 6.35516 43.9128C2.22913 39.8376 0.109849 34.7283 0 28.4777C0 28.2071 0.109849 28.0972 0.380452 28.0972Z" fill="#FFDE1A"/>
+                                    <path d="M88.3158 5.37992C91.5229 8.58697 93.0983 12.4987 93.0983 17.1739C93.0983 21.8492 91.5229 25.8145 88.3158 29.0215C85.1088 32.2286 81.0336 33.804 75.9779 33.804H63.3158V25.0536H47.6637V9.40146H63.3158V0.543886H75.9779C81.0336 0.543886 85.1088 2.17554 88.3158 5.37992ZM47.6637 33.804H63.3158V49.4561H47.6637V33.804ZM77.339 17.2275C77.339 16.6301 77.0121 16.3032 76.3611 16.3032H63.3185V18.1519H76.3611C77.0121 18.1519 77.339 17.825 77.339 17.2275Z" fill="#FFDE1A"/>
+                                    </svg>
+                                    
                             </div>
                             <div class="fasce-orarie">
                                 <div class="orario"><span>15:30 </span><span>18:00</span></div>
+                                <div class="descrizione">
                                 <h3>Open Studio</h3>
-                                <p>LIEVITO Creative LAB</p>
-                                <P>Presentazione del laboratorio e dei loro progetti</P>
-                                <p>LIEVITO creative LAB - Via Conte Rosso, 26</p>
+                                    <p>LIEVITO Creative LAB</p>
+                                    <P>Presentazione del laboratorio e dei loro progetti</P>
+                                    <p class="luogo">LIEVITO creative LAB - Via Conte Rosso, 26</p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- faq 2 -->
                     <div class="accordion-header">
-                        <a href="#content-2" class="accordion-toggle"><p>Ven 10 Giugno</p><img src="img/x.svg" alt=""></a>
+                        <a href="#content-2" class="accordion-toggle"><p>Ven 10 Giugno</p><img id="x-icon" src="img/x.svg" alt=""></a>
                     </div>
                     <div class="accordion-content-container" id="content-2">
                         <div class="accordion-content">
@@ -94,14 +110,14 @@
                                 <div class="orario"><span>10:00</span></div>
                                 <div class="descrizione">
                                     <h3>Apertura</h3>
-                                    <p>Scuola Mohole - Via Privata Giovanni Ventura, 5</p>
+                                    <p class="luogo">Scuola Mohole - Via Privata Giovanni Ventura, 5</p>
                                 </div>
                             </div>
                             <div class="fasce-orarie">
                                 <div class="orario"><span>10:00 </span><span>10:30</span></div>
                                 <div class="descrizione">
                                     <h3>Presentazione Gamma</h3>
-                                    <p>Scuola Mohole - Via Privata Giovanni Ventura, 5</p>
+                                    <p class="luogo">Scuola Mohole - Via Privata Giovanni Ventura, 5</p>
                                 </div>
                             </div>
                             <div class="fasce-orarie">
@@ -109,7 +125,7 @@
                                 <div class="descrizione">
                                     <h3>Talk - Libri d’artista</h3>
                                     <p>Con Giacomo Callo</p>
-                                    <p>ACLI - Via Conte Rosso, 5</p>
+                                    <p class="luogo">ACLI - Via Conte Rosso, 5</p>
                                 </div>
                             </div>
                             <div class="fasce-orarie">
@@ -117,7 +133,7 @@
                                 <div class="descrizione">
                                     <h3>Workshop - Printi</h3>
                                     <p>Con Camillo Frigeni</p>
-                                    <p>ACLI - Via Conte Rosso, 5</p>
+                                    <p class="luogo">ACLI - Via Conte Rosso, 5</p>
                                 </div>
                             </div>
                             <div class="fasce-orarie">
@@ -125,7 +141,7 @@
                                 <div class="descrizione">
                                     <h3>Tavoli Tematici - Stampa analogica</h3>
                                     <p>Con Pilar Dominguez</p>
-                                    <p>ACLI - Via Conte Rosso, 5</p>
+                                    <p class="luogo">ACLI - Via Conte Rosso, 5</p>
                                 </div>
                             </div>
                         </div>
@@ -133,7 +149,7 @@
 
                     <!-- faq 3 -->
                     <div class="accordion-header">
-                        <a href="#content-3" class="accordion-toggle"><p>Sab 11 Giugno</p><img src="img/x.svg" alt=""></a>
+                        <a href="#content-3" class="accordion-toggle"><p>Sab 11 Giugno</p><img id="x-icon" src="img/x.svg" alt=""></a>
                     </div>
                     <div class="accordion-content-container" id="content-3">
                         <div class="accordion-content">
@@ -141,14 +157,14 @@
                                 <div class="orario"><span>10:00</span></div>
                                 <div class="descrizione">
                                     <h3>Apertura</h3>
-                                    <p>Scuola Mohole - Via Privata Giovanni Ventura, 5</p>
+                                    <p class="luogo">Scuola Mohole - Via Privata Giovanni Ventura, 5</p>
                                 </div>
                             </div>
                             <div class="fasce-orarie">
                                 <div class="orario"><span>10:00 </span><span>10:30</span></div>
                                 <div class="descrizione">
                                     <h3>Presentazione Beta</h3>
-                                    <p>Scuola Mohole - Via Privata Giovanni Ventura, 5</p>
+                                    <p class="luogo">Scuola Mohole - Via Privata Giovanni Ventura, 5</p>
                                 </div>
                             </div>
                             <div class="fasce-orarie">
@@ -156,7 +172,7 @@
                                 <div class="descrizione">
                                     <h3>Talk - Grafica d'arte</h3>
                                     <p>Con Beppe Del Greco</p>
-                                    <p>ACLI - Via Conte Rosso, 5</p>
+                                    <p class="luogo">ACLI - Via Conte Rosso, 5</p>
                                 </div>
                             </div>
                             <div class="fasce-orarie">
@@ -164,7 +180,7 @@
                                 <div class="descrizione">
                                     <h3>Workshop - Serigrafia</h3>
                                     <p>Con Riccardo Piperno e Federica Vuolo</p>
-                                    <p>ACLI - Via Conte Rosso, 5</p>
+                                    <p class="luogo">ACLI - Via Conte Rosso, 5</p>
                                 </div>
                             </div>
                         </div>
@@ -172,7 +188,7 @@
                 </div>
 
                 <div class="button-container">
-                    <button>Scarica il programma</button>
+                    <a href="img/programma-Migrada.pdf" download><button>Scarica il programma</button></a>
                 </div>
 
             </div>
