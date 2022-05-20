@@ -2,6 +2,7 @@
 .accordion-header{
     p{
         font-size: 24px;
+        pointer-events: none;
     }
     a{
         border: 2px solid $nero;
@@ -88,6 +89,15 @@
     }
 }
 
+.x-icon {
+    transform: rotate(0deg);
+    pointer-events: none;
+    transition: transform .3s ease;
+}
+.x-icon.x-icon-active{
+    transform: rotate(45deg);
+    
+}
 
 @media(min-width: 700px){
     .accordion-header a{
