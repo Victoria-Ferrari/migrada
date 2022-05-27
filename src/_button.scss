@@ -2,7 +2,7 @@
 .button-container{
     display: flex;
     justify-content: flex-end;
-    button{
+    a{
         background-color: transparent;
         font-size: 13px;
         line-height: 23px;
@@ -10,6 +10,7 @@
         border-radius: 100px;
         padding: 4px;
         margin-top: 40px;
+        transition: all .3s ease-in;
         &:hover{
             background-color: $nero;
             color: white;
@@ -20,7 +21,7 @@
 @media (min-width: 1050px) {
     .button-container{
         padding-top: 20px;
-        button {
+        a {
             padding: 8px 15px;
             font-size: 22px;
             border: 2px solid $nero;
