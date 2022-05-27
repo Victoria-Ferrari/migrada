@@ -80,8 +80,6 @@ header {
             li {
                 width: 100%;
                 height: 100%;
-                padding: 0;
-                padding: 20px 0;
                 border-bottom: 2px solid $nero;
                 border-top: 2px solid $nero;
                 border-left: 2px solid $nero;
@@ -89,6 +87,12 @@ header {
                 font-size: 36px;
                 &:nth-child(1) {
                     border-left: none;
+                }
+                a{
+                    display: inline-block ;
+                    padding: 10px 0;
+                    width: 100%;
+                    height: 100%;
                 }
             }
         }
@@ -127,6 +131,11 @@ main {
             padding-bottom: 100px;
             display: grid;
             grid-template-columns: 1fr 2fr;
+        }
+        .partners{
+            .partner{
+                padding: 20px;
+            }
         }
     }
 }
