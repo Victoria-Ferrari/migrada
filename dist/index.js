@@ -4,7 +4,6 @@ const accordionHeaders = Array.from(
 const accordionContents = Array.from(
   document.querySelectorAll(".accordion-content-container")
 )
-// const accordionIcon = Array.from(document.querySelectorAll("#x-icon"))
 
 accordionHeaders.forEach((header) => {
   header.addEventListener("click", (event) => {
@@ -22,10 +21,5 @@ accordionHeaders.forEach((header) => {
 
     header.classList.toggle("active")
     accordionContent.classList.toggle("active")
-
-    const xIcon = header.querySelector("#x-icon")
-    xIcon.classList.toggle("x-icon-active")
   })
 })
-
-document.addEventListener("click", () => {})
