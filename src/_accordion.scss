@@ -69,10 +69,15 @@
         border-right: 2px solid black;
         padding: 0 25px 30px 25px;
         opacity: 0;
-        .fasce-orarie{
+        .single-content{
             padding: 10px 0;
+            svg{
+                margin-left: 50px;
+                align-self: center;
+            }
             h3{
-                padding-top: 4px;
+                padding-top: 10px;
+                padding-bottom: 5px;
             }
             .luogo{
                 font-size: 14px;
@@ -128,9 +133,10 @@
         }
     }
     .accordion-content-container .accordion-content {
-        .fasce-orarie {
+        .single-content{
             display: grid;
             grid-template-columns: 1fr 2.5fr 1fr;
+            justify-items: start;
             .orario span {
                 display: block;
                 font-size: 20px;
@@ -144,9 +150,6 @@
             }
             p{
                 font-size: 20px;
-            }
-            svg{
-                justify-self: end;
             }
         }
     }
