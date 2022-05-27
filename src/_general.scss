@@ -133,7 +133,6 @@ footer {
     padding: 36px;
     border-top: 2px solid $nero;
     .footer-section {
-        padding-top: 30px;
         h3 {
             padding-bottom: 7px;
         }
@@ -153,8 +152,11 @@ footer {
         .img-footer-mobile {
             display: none;
         }
-        .img-footer-desktop {
+        .only-desktop {
             display: block;
+            height: auto;
+            width: 142px;
+            
         }
     }
 }
